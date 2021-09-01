@@ -35,7 +35,7 @@ export default function About(props) {
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
               <img
-                src="https://source.unsplash.com/500x100/?code"
+                src="https://source.unsplash.com/500x200/?dark"
                 className="d-block w-100"
                 alt="..."
               />
@@ -46,7 +46,7 @@ export default function About(props) {
             </div>
             <div className="carousel-item" data-bs-interval="2000">
               <img
-                src="https://source.unsplash.com/500x100/?text"
+                src="https://source.unsplash.com/500x200/?dark"
                 className="d-block w-100"
                 alt="..."
               />
@@ -57,7 +57,7 @@ export default function About(props) {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/500x100/?programming"
+                src="https://source.unsplash.com/500x200/?dark"
                 className="d-block w-100"
                 alt="..."
               />
@@ -93,9 +93,9 @@ export default function About(props) {
           Hi ! Welcome To <strong>Text Utility</strong>..
         </p>
         <p>Hope you like our little project, and it's useful to you.</p>
-        <p>First Of All, A BIG SHOUT OUT TO <a href="https://www.codewithharry.com/"><strong>CodeWithHarry</strong></a>
+        {/* <p>First Of All, A BIG SHOUT OUT TO <a href="https://www.codewithharry.com/"><strong>CodeWithHarry</strong></a>
         . For Guidance throughout the project. Make sure to check his youtube, instagram
-        and other social links</p>
+        and other social links</p> */}
         <p>
           In future we will be adding more utilities to the project which will
           come useful for doing Various other text Manipulation
@@ -106,7 +106,7 @@ export default function About(props) {
       </div>
 
       <div className="container">
-        <div className="accordion" id="accordionPanelsStayOpenExample">
+        {/* <div className="accordion" id="accordionPanelsStayOpenExample"> */}
           <div className="accordion-item">
             <h2 className="accordion-header" id="panelsStayOpen-headingOne">
               <button
@@ -114,7 +114,7 @@ export default function About(props) {
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne"
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseOne"
               >
                 Convert To Upper Case
@@ -132,7 +132,7 @@ export default function About(props) {
                 <p>Code Contributor : <strong>Sahil Trivedi</strong></p>
               </div>
             </div>
-          </div>
+          {/* </div> */}
           <div className="accordion-item">
             <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
               <button
@@ -160,22 +160,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseThree"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseThree"
               >
                 Convert To Camel Case
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseThree"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingThree"
             >
               <div className="accordion-body">
               This function Simply Convert the entire text to Camel Case, ignoring
@@ -190,22 +190,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 className="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#panelsStayOpen-collapseFour"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="panelsStayOpen-collapseFour"
               >
                 Convert To Title Case
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="panelsStayOpen-collapseFour"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              aria-labelledby="panelsStayOpen-headingFour"
             >
               <div className="accordion-body">
               This function Simply Convert the entire text to Title Case, ignoring
@@ -218,22 +218,22 @@ export default function About(props) {
             </div>
           </div>          
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 className="accordion-header" id="panelsStayOpen-headingFive">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseFive"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseFive"
               >
                 Remove Spaces
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseFive"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingFive"
             >
               <div className="accordion-body">
                 Remove Spaces Function is used to removed any extra Spaces
@@ -244,22 +244,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 className="accordion-header" id="panelsStayOpen-headingSix">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseSix"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseSix"
               >
                 Copy Text
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseSix"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingSix"
             >
               <div className="accordion-body">
                 Copy Text is used to easily copy the text that is currently in
@@ -271,22 +271,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 className="accordion-header" id="panelsStayOpen-headingSeven">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseSeven"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseSeven"
               >
                 Clear Text
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseSeven"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingSeven"
             >
               <div className="accordion-body">
                 Clear Text Simply Clear all the types/copied text in the site
@@ -297,22 +297,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 className="accordion-header" id="panelsStayOpen-headingEight">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseEight"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseEight"
               >
                 Encode Text To Base 64 String
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseEight"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingEight"
             >
               <div className="accordion-body">
               Base64 is an encoding and decoding technique used to convert
@@ -329,22 +329,22 @@ export default function About(props) {
             </div>
           </div>
           <div className="accordion-item">
-            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 className="accordion-header" id="panelsStayOpen-headingNine">
               <button
                 className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseNine"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseNine"
               >
                 Decode Text To Base 64 String
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseNine"
               className="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingNine"
             >
               <div className="accordion-body">
               Base64 is an encoding and decoding technique used to convert
